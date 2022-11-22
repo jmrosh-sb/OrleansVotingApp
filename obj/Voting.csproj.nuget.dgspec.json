@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/josh.mascorro/Code/Repos/ServiceTitan/orleans-samples/samples/orleans/Voting/Voting.csproj": {}
+  },
+  "projects": {
+    "/Users/josh.mascorro/Code/Repos/ServiceTitan/orleans-samples/samples/orleans/Voting/Voting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/josh.mascorro/Code/Repos/ServiceTitan/orleans-samples/samples/orleans/Voting/Voting.csproj",
+        "projectName": "Voting",
+        "projectPath": "/Users/josh.mascorro/Code/Repos/ServiceTitan/orleans-samples/samples/orleans/Voting/Voting.csproj",
+        "packagesPath": "/Users/josh.mascorro/.nuget/packages/",
+        "outputPath": "/Users/josh.mascorro/Code/Repos/ServiceTitan/orleans-samples/samples/orleans/Voting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/josh.mascorro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Orleans.Clustering.AzureStorage": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Microsoft.Orleans.Hosting.Kubernetes": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Microsoft.Orleans.Server": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Kubernetes.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Orleans.Clustering.Redis": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Orleans.Persistence.Redis": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "OrleansDashboard": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
